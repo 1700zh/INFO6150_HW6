@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f3;
+  color: #333;
+}
+
+header, footer {
+  background-color: #add8e6;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+.weather-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.weather-form input, .weather-form button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.weather-form button {
+  background-color: #87cefa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-form button:hover {
+  background-color: #4682b4;
+}
+
+.weather-result {
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
